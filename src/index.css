@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 4rem;
+  gap: 3rem;
+}
+.main-title{
+  font-size: 54px;
+}
+
+.main-hora{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hora-sub-title{
+  font-size: 24px;
+}
+.hora-time{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-fecha{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.fecha-title{
+  font-size: 24px;
+}
+.fecha-fecha{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.fecha-sub-title{
+  font-size: 24px;
+  margin-top: 1rem;
+}
+.fecha-dayOfWeek{
+  font-size: 30px;
+  font-weight: bolder;
+}
